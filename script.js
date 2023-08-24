@@ -13,7 +13,6 @@ const iconDiv = document.getElementById("icon")
 
 ratingOne.addEventListener('click', function(){
     selected.push(ratingOne)
-   
 })
 ratingTwo.addEventListener('click', function(){
     selected.push(ratingTwo)
@@ -31,7 +30,6 @@ ratingFive.addEventListener('click', function(){
 submitBtn.addEventListener('click', function(){
     let submitted = selected[selected.length-1]
     let rate = selected[selected.length-1].innerHTML
-    console.log(submitted);
     message.innerHTML = `Thank You`
     message.classList.add("text-thanks")
     title.innerHTML = `You have selected ${rate} out of 5`
