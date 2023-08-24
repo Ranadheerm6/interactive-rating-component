@@ -164,9 +164,12 @@ img{
 
 /* media queries */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .card{
         margin: 15px;
         width: 200px;
+    }
+    .message-style{
+        background: rgba(0, 0, 0, 0)
     }
 }
