@@ -170,6 +170,8 @@ img{
         width: 200px;
     }
     .message-style{
-        background: rgba(0, 0, 0, 0)
+        background: rgba(0, 0, 0, 0);
+        width: 90%;
+        font-size: 14px;
     }
 }
