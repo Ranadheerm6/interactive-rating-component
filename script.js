@@ -13,24 +13,19 @@ const iconDiv = document.getElementById("icon")
 
 ratingOne.addEventListener('click', function(){
     selected.push(ratingOne)
-    console.log(selected);
    
 })
 ratingTwo.addEventListener('click', function(){
     selected.push(ratingTwo)
-    console.log(selected);
 })
 ratingThree.addEventListener('click', function(){
     selected.push(ratingThree)
-    console.log(selected);
 })
 ratingFour.addEventListener('click', function(){
     selected.push(ratingFour)
-    console.log(selected);
 })
 ratingFive.addEventListener('click', function(){
     selected.push(ratingFive)
-    console.log(selected);
 })
 
 submitBtn.addEventListener('click', function(){
